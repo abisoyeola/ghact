@@ -1,1 +1,1 @@
-# ghact
+# this is my first gitops project
