@@ -1,4 +1,3 @@
-import pytest
 def ver_password(x,y):
     return x==y
 
