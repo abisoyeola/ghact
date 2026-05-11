@@ -1,5 +1,6 @@
-def ver_password(x,y):
-    return x==y
+def ver_password(x, y):
+    return x == y
+
 
 def verify():
-    assert ver_password("idris","idris") == True
+    assert ver_password("idris", "idris") == True
