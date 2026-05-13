@@ -1,0 +1,21 @@
+name: hello world
+on: 
+    push:
+        branches: ["main"]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Build Step
+              run: echo "A deemo build"
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Test Phase
+              run: echo "runnin test phase"
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Deploy Phase
+              run: echo "runnin deploy phase"
