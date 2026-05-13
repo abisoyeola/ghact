@@ -20,4 +20,4 @@ jobs:
         needs: test
         steps:
             - name: Deploy Phase
-              run: echo "runnin deploy phase"
+              run: echo "runnin deploy phase ${{secrets.FAREN_KEY}}"
